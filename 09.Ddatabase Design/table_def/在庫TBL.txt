@@ -1,0 +1,13 @@
+TABLE_NAME = ZAIKO
+
+SOURCE_KASYO VARCHAR2(20)          --登録箇所
+REG_OBJ_DATE DATE                  --登録対象年月日
+BUHIN_CD VARCHAR2(16)              --部品コード
+BUHIN_NAME VARCHAR2(60)            --部品名称
+STANDARD_ZAIKO_COUNT NUMERIC(5,0) --基準在庫
+NYUKO_COUNT  NUMERIC(5,0)         --入庫数
+SYUKO_COUNT  NUMERIC(5,0)　　 　　--出庫数
+LASTEST_ZAIKO NUMERIC(5,0)        --最新在庫
+REG_DATE DATE                  　 --登録年月日
+UPD_DATE DATE                  　 --更新年月日
+UPD_USER VARCHAR2(10)             --更新年月日

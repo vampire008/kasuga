@@ -1,0 +1,9 @@
+TABLE_NAME = CUSTOMER_ORDER
+
+BUHIN_CD VARCHAR2(16)             --部品コード
+BUHIN_NAME VARCHAR2(60)           --部品名称
+ORDER_COUNT  NUMERIC(5,0)         --所要数
+ORDER_OBJ_DATE  DATE              --所要日
+REG_DATE DATE                  　 --登録年月日
+UPD_DATE DATE                  　 --更新年月日
+UPD_USER VARCHAR2(10)             --更新者

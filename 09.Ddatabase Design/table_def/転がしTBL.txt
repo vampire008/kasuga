@@ -1,0 +1,12 @@
+TABLE_NAME = KOROGASI_TBL
+
+BUHIN_CD VARCHAR2(16)              --部品コード
+BUHIN_NAME VARCHAR2(60)            --部品名称
+OBJ_DATE 　DATE                    --対象年月日
+FOB_CHINA  VARCHAR2(20)            --FOB中国
+STS_ARRIVAL  NUMERIC(5,0)          --STS着数 
+STS_ZAIKO_COUNT NUMERIC(5,0)       --STS在庫
+YANMA_ORDER_COUNT NUMERIC(5,0)     --ヤンマ所要数
+REG_DATE DATE                  　 --登録年月日
+UPD_DATE DATE                  　 --更新年月日
+UPD_USER VARCHAR2(10)             --更新者
